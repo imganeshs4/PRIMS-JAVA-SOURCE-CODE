@@ -79,8 +79,8 @@ public class Prims
      { 
        System.out.println("\nThe edges selected for MST are:");
        for(i=0;i<n-1;i++)
-         System.out.printf("Edge %d: %d ---- %d \n",(i+1),mst[i][0],mst[i][1]);
-       System.out.println("\nMin cost of matrix:"+sum);
+         System.out.printf("\nEdge%d :  %d----%d   cost = %d",(i+1),mst[i][0],mst[i][1],cost[mst[i][0]][mst[i][1]]);
+       System.out.println("\nMin cost of Spanning tree:"+sum);
      }
      
     
